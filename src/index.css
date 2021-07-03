@@ -119,3 +119,35 @@ html {
   background-color: white;
   color: var(--light-red);
 }
+
+@media (max-width: 1080px) {
+  .home {
+    width: 100vw !important;
+    height: 79vh !important;
+    padding: 3rem 1rem !important;
+    background: rgb(255, 143, 112) url("./assets/bg-pattern-intro.svg")
+      no-repeat;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 143, 112, 1) 35%,
+      rgba(255, 61, 84, 1) 100%
+    );
+    border-bottom-left-radius: 20% !important;
+    color: var(--white);
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .homeBody {
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .homeHeading {
+    font-size: 1.25rem !important;
+  }
+
+  .homeSubCaption {
+    color: var(--grayish-blue);
+    margin: 2rem 0 !important;
+  }
+}
