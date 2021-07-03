@@ -1,0 +1,40 @@
+.headerDesktop {
+  list-style: none;
+  display: flex;
+}
+
+.headerDesktop li {
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.productTab,
+.companyTab,
+.connectTab {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.connectTab {
+  margin-right: auto;
+}
+
+.loginBtn,
+.signUpBtn {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+  background-color: white;
+  color: var(--light-red);
+}
