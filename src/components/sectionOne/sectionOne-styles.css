@@ -1,0 +1,111 @@
+.sectionOne {
+  height: 100vh;
+  width: 100vw;
+  margin: 2rem 0;
+  padding: 3rem;
+  text-align: center;
+  background: url("../../assets/illustration-editor-desktop.svg") no-repeat;
+  background-position: right -28% bottom;
+  background-size: contain;
+}
+
+.sectionOne h1,
+.sectionOne h2 {
+  color: hsl(240, 10%, 16%);
+}
+
+.sectionOne p {
+  color: hsl(207, 13%, 34%);
+}
+
+.sectionOneHeading {
+  margin-bottom: 2rem;
+}
+
+.sectionOneBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sectionOneInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 2rem;
+  grid-gap: 3rem;
+}
+
+.sectionOneInfoParaHeading {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.sectionOneInfoParaContent {
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.sectionOneImage {
+  width: 100%;
+  height: 400px;
+}
+
+.mobileBgImage {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .mobileBgImage {
+    display: block !important;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+  }
+
+  .sectionOne {
+    height: 100vh;
+    width: 100vw;
+    margin: 2rem 0;
+    text-align: center;
+    background: url("../../assets/illustration-editor-mobile.svg") no-repeat;
+    background-position: top 20% right;
+    background-size: contain;
+    padding-top: 2rem !important;
+  }
+
+  .sectionOneHeading {
+    margin-bottom: 25rem !important;
+  }
+
+  .sectionOne h1,
+  .sectionOne h2,
+  .sectionOne p {
+    text-align: center !important;
+  }
+
+  .sectionOne h1,
+  .sectionOne h2 {
+    color: hsl(240, 10%, 16%);
+  }
+
+  .sectionOne p {
+    color: hsl(207, 13%, 34%);
+  }
+
+  .sectionOneBody {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+
+  .sectionOneInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 !important;
+    grid-gap: 3rem;
+  }
+
+  .sectionOneInfoParaHeading {
+    padding: 0 2rem !important;
+  }
+}
