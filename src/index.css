@@ -74,7 +74,6 @@ html {
     rgba(255, 143, 112, 1) 35%,
     rgba(255, 61, 84, 1) 100%
   );
-  background-position: center;
   border-bottom-left-radius: 20%;
   color: var(--white);
   font-family: "Ubuntu", sans-serif;
