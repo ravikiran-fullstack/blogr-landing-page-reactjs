@@ -3,32 +3,30 @@
   background-position: top 89% left -84%;
   height: 68vh;
   width: 100vw;
-  background: rgb(44, 45, 63);
+  background-color: rgb(44, 45, 63);
+  /* 
   background-color: linear-gradient(
     90deg,
     rgba(44, 45, 63, 1) 35%,
     rgba(63, 65, 100, 1) 100%
-  );
+  ); */
   border-bottom-left-radius: 20%;
   border-top-right-radius: 20%;
   display: flex;
   position: relative;
-  z-index: 1;
 }
 
-.circleBg {
+/* .circleBg {
   position: absolute;
   height: 100%;
   top: -411px;
   left: -219px;
   z-index: -9;
-}
+} */
 
 .illustrationPhones {
   position: absolute;
   height: 100%;
-  /* background: url("../../assets/illustration-phones.svg") no-repeat;
-  background-position: top 45% left; */
   top: -65px;
   z-index: 10;
 }

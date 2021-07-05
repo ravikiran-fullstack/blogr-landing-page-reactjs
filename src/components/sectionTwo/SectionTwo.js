@@ -7,9 +7,9 @@ const SectionTwo = () => {
   return (
     <section className="sectionTwo">
       <div className="illustrationPhones">
-        <div className="circleBg">
+        {/* <div className="circleBg">
           <img src={circle} alt="circle" />
-        </div>
+        </div> */}
         <img src={phoneImage} alt="phoneImage" />
       </div>
       <div className="sectionTwoInfoPara">
